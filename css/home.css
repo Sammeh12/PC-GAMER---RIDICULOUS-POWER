@@ -1,0 +1,60 @@
+ul.breadcrumb {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px 16px;
+  list-style: none;
+  background-color: white;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper img {
+  width: 100%;
+  padding-top: 15px;
+}
+.wrapper h2 {
+  color: blue;
+  width: 97.5%;
+  padding-top: 20px;
+}
+.wrapper p {
+  width: 97.5%;
+  padding-top: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+  }
+
+  .wrapper img {
+    width: 50%;
+  }
+}
